@@ -73,3 +73,6 @@ namespace IteratorPattern
 
 	}
 }
+
+//  This Application's code is available at https://github.com/KayllenTutorials/Iterator-Pattern-Part-2.git
+//  Copyright (C) 2017 Kayllen Company
