@@ -4,8 +4,11 @@ namespace IteratorPattern
 {
   class Member
   {
-    // The member's name.  This could also include the address 
-    // and other identifying information.
+  
+		// The member's name and a string that describes the lists the member
+		// is included on.  This could also include the address and other
+    // identifying information. 
+
     public string m_Name { get; set; }
 		public string m_Lists { get; set; }
 
@@ -13,10 +16,9 @@ namespace IteratorPattern
     // member is to be included. 
     public List<ListTypes> ltl = new List<ListTypes>();
 
-    // The only constructor for Members.  Indicates the name as well 
-    // the lists on which this member is to be included.
-
-    public Member(string Name, string Lists, bool OnChristmasList, bool OnPigroastList, bool OnFamilyList)
+		// The only constructor for Members.  Indicates the name as well 
+		// the lists on which this member is to be included.
+		public Member(string Name, string Lists, bool OnChristmasList, bool OnPigroastList, bool OnFamilyList)
     {
       m_Name = Name;
 			m_Lists = Lists;
